@@ -1,0 +1,4 @@
+body{
+  @apply overflow-x-hidden overflow-y-auto font-sans bg-zinc-200 text-zinc-950
+  w-screen h-screen
+}
