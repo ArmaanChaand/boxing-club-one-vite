@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body{
-  @apply overflow-x-hidden overflow-y-auto font-sans bg-zinc-200 text-zinc-950
-  w-screen h-screen
+  @apply overflow-x-hidden overflow-y-auto font-sans text-zinc-200 bg-zinc-900
+  w-screen h-screen selection:bg-red-600/50 selection:text-zinc-200 
 }
