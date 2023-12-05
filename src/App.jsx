@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const deadline = new Date('December 6, 2023 02:15:00');
+  const deadline = new Date('December 6, 2023 17:00:00');
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   useEffect(() => {
@@ -40,10 +40,9 @@ function App() {
     <>
       <div className='w-full h-screen flex justify-center items-center flex-col'>
         <p className='text-sm font-semibold'>Your website will be ready in</p>
-        {/* <h2 className='font-extrabold text-6xl sm:text-8xl'>12:00:00</h2> */}
         <h2 className='font-extrabold text-6xl sm:text-8xl'>{timeRemaining?.hours}:{timeRemaining?.minutes}:{timeRemaining?.seconds}</h2>
 
-        <h3 className='text-lg uppercase font-semibold mt-4'>Banglore Boxing Club</h3>
+        <h3 className='text-lg uppercase font-semibold mt-4'>Bangalore Boxing Club</h3>
       </div>
     </>
   )
