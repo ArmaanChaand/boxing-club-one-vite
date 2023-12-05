@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const deadline = new Date('December 6, 2023 17:00:00');
+  const deadline = new Date('December 6, 2023 03:00:00');
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   useEffect(() => {
