@@ -16,7 +16,7 @@ export function Footer(){
             4
         </span>
     </a>
-      <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 ">
+      <ul className="flex flex-wrap items-center mt-6 sm:mt-0 mb-6 text-sm font-medium sm:mb-0 ">
         <li>
           <a href="#CLASSES" className="hover:underline me-4 md:me-6">
             Classes
