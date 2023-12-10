@@ -6,7 +6,7 @@ export function PricingsHome(){
             id="PRICINGS"
             className="w-screen h-screen bg-zinc-950 relative overflow-hidden z-0"
         >
-            <div className="w-full -z-10 brightness-50 sm:brightness-75 sm:w-1/2  h-full bg-slate-900 absolute right-0">
+            <div className="w-full -z-10 brightness-50 sm:brightness-75 sm:w-1/2  h-full bg-zinc-950/90 absolute right-0">
                 <img src="/media/boxing-back.jpg" alt="Boxing"
                     className="w-full h-full object-cover"
                 />
@@ -17,16 +17,16 @@ export function PricingsHome(){
                         No matter  <br/> where you start
                     </h3>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 w-full gap-1">
-                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm gap-1 p-1 font-semibold capitalize">
+                        <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm gap-1 p-1 font-semibold capitalize">
                         Functional Training  
                         </li>
-                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
+                        <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
                          Bodyweighted Training  
                         </li>
-                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
+                        <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
                          Animal Flow  
                         </li>
-                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
+                        <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
                          Personal Training  
                         </li>
                     </ul>
