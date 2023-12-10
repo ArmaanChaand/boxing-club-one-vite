@@ -22,7 +22,7 @@ export function Classes(){
                             title="Fitness"
                         />
                 </div>
-                <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">
+                <blockquote className="text-xl italic font-semibold text-zinc-200">
   <svg
     className="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4"
     aria-hidden="true"
