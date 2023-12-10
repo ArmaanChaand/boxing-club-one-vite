@@ -1,82 +1,43 @@
-import { FaRupeeSign } from "react-icons/fa";
-import { PricingCard } from "./PricingCard";
 import { ContainerDiv } from "./elements/Container";
-const silver_glove = [
-    {
-        text: "Boxing training",
-        checked: true,
-    },
-    {
-        text: "Yoga practice",
-        checked: false,
-    },
-    {
-        text: "Body building",
-        checked: false,
-    },
-]
-const gold_glove = [
-    {
-        text: "Boxing training",
-        checked: true,
-    },
-    {
-        text: "Yoga practice",
-        checked: true,
-    },
-    {
-        text: "Body building",
-        checked: false,
-    },
-]
-const platinum_glove = [
-    {
-        text: "Boxing training",
-        checked: true,
-    },
-    {
-        text: "Yoga practice",
-        checked: true,
-    },
-    {
-        text: "Body building",
-        checked: true,
-    },
-]
+
 export function PricingsHome(){
     return(
         <section
-            className="w-screen h-fit pt-20 py-10 bg-zinc-900 relative overflow-hidden z-0"
+            id="PRICINGS"
+            className="w-screen h-screen bg-zinc-950 relative overflow-hidden z-0"
         >
-            <div
-                className="absolute left-0 text-[700px] -z-10 text-gray-600/10 top-1/2 -translate-y-1/2"
-            ><FaRupeeSign/></div>
-            <ContainerDiv className="bg-transparent h-full flex flex-col justify-center items-center gap-10 z-10">
-                <h2 className="text-3xl font-bold uppercase italic">
-                        PRICINGS <span className="bg-red-700/90">ARE</span> 
+            <div className="w-full -z-10 brightness-50 sm:brightness-75 sm:w-1/2  h-full bg-slate-900 absolute right-0">
+                <img src="/media/boxing-back.jpg" alt="Boxing"
+                    className="w-full h-full object-cover"
+                />
+            </div>
+            <ContainerDiv className="bg-transparent h-full flex flex-row justify-start items-center gap-10 z-10">
+                <div className="flex flex-col justify-center items-center text-center gap-5">
+                    <h3 className="text-5xl font-extrabold capitalize">
+                        No matter  <br/> where you start
+                    </h3>
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 w-full gap-1">
+                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm gap-1 p-1 font-semibold capitalize">
+                        Functional Training  
+                        </li>
+                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
+                         Bodyweighted Training  
+                        </li>
+                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
+                         Animal Flow  
+                        </li>
+                        <li className="rounded-sm bg-white text-slate-900 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
+                         Personal Training  
+                        </li>
+                    </ul>
+                    <h2 className="text-6xl font-extrabold">
+                        <span className="text-red-700">₹</span>1500/M
                     </h2>
-                <div className="bg-transparent w-fit">
-                        <div className="w-fit grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6 xl:gap-10 ">
-                        {/* Pricing Card */}
-                        <PricingCard
-                            title="Silver"
-                            price={2200}
-                            features={silver_glove}
-                        />
-                        <PricingCard
-                            title="Gold"
-                            price={3000}
-                            features={gold_glove}
-                        />
-                        <PricingCard
-                            title="Platinum"
-                            price={5000}
-                            features={platinum_glove}
-                        />
-                        </div>
-                    </div>
+                    <button className="text-base py-2 px-5 border rounded hover:bg-red-700 transition-colors">
+                        JOIN NOW
+                    </button>
+                </div>
             </ContainerDiv>
-
 
         </section>
     )

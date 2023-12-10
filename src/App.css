@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+  @apply scroll-smooth
+}
 
 body{
   @apply overflow-x-hidden overflow-y-auto font-sans text-zinc-200 bg-zinc-900

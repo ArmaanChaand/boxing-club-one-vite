@@ -13,16 +13,16 @@ export function Header(){
                     <RiMenu4Fill/>
                 </button>
                 <nav className="text-sm font-semibold hidden sm:flex capitalize justify-center items-center gap-5 ">
-                    <a href="#" className="hover:underline">
-                        Home
-                    </a>
-                    <a href="#" className="hover:underline">
+                    <a href="#CLASSES" className="hover:underline">
                         Classes
                     </a>
-                    <a href="#" className="hover:underline">
+                    <a href="#ABOUT" className="hover:underline">
+                        About
+                    </a>
+                    <a href="#PRICINGS" className="hover:underline">
                         Pricings
                     </a>
-                    <a href="#" className="hover:underline">
+                    <a href="#CONTACT" className="hover:underline">
                         Contact
                     </a>
                 </nav>    

@@ -1,9 +1,9 @@
 import { ClasesItem } from "./ClassesItem";
 import { ContainerDiv } from "./elements/Container";
 
-export function AboutHome(){
+export function Classes(){
     return(
-        <section className="w-screen h-fit bg-zinc-950/70  pt-24 sm:pt-20 py-20">
+        <section id="CLASSES" className="w-screen h-fit bg-zinc-950/70  pt-24 sm:pt-20 py-20">
             <ContainerDiv className="h-fit flex flex-col justify-center items-center gap-10">
                 <h2 className="text-3xl font-bold uppercase italic">
                     POPULAR <span className="bg-red-700/90">CLASSES</span> 
@@ -14,12 +14,12 @@ export function AboutHome(){
                             title="Building"
                         />
                         <ClasesItem
-                            src="/media/boxing-1.png/"
+                            src="/media/fighting.jpg/"
                             title="Boxing"
                         />
                         <ClasesItem
-                            src="/media/yoga.jpg/"
-                            title="Yoga"
+                            src="/media/boxing-girl.jpg/"
+                            title="Fitness"
                         />
                 </div>
                 <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white">

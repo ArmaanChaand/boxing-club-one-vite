@@ -41,15 +41,18 @@ export default function Home({}){
             <ContainerDiv className="h-full flex justify-center items-start sm:items-center">
                 <div className="mt-16 sm:mt-[unset] mr-auto ">
                     <motion.small variants={item} className="font-Lobster ">Gym & Boxing</motion.small>
-                    <motion.h1 variants={item} className="uppercase font-extrabold text-5xl sm:text-7xl italic">
-                        <span className="text-[0.9em]">
-                        Bangalore
-                        </span> <br/> 
-                        Boxing 
-                        <span className="bg-red-700/90 ml-2">
-                        Club
-                        </span>
-                    </motion.h1>
+                    <h1 
+                        
+                        className="uppercase font-extrabold text-5xl sm:text-8xl italic relative w-fit h-fit z-0">
+                            <motion.span variants={item}  >
+                            Fight
+                            <br/> 
+                            Fitness
+                            </motion.span>
+                        <motion.span variants={item}  className="absolute text-9xl sm:text-[15rem] -top-8 sm:-top-10 text-red-700 right-0 -z-10">
+                            4
+                        </motion.span>
+                    </h1>
                     <motion.p className="w-11/12 sm:w-2/3 text-sm text-justify my-5 sm:my-8" 
                         variants={item}
                     >
@@ -57,8 +60,8 @@ export default function Home({}){
                     </motion.p>
                     <motion.a  
                         variants={item}
-                    href="#" className="font-Lobster text-lg bg-red-700/90 underline underline-offset-2">
-                        Staring from ₹2200/mo
+                    href="#" className="border p-2 rounded-sm underline-offset-2 text-sm hover:bg-red-700 transition-all">
+                        BOOK AN APPOINTMENT
                     </motion.a>
                 </div>
             </ContainerDiv>
