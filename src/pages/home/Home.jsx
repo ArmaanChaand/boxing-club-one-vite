@@ -40,27 +40,25 @@ export default function Home({}){
                 rotate-12 -bottom-[10%] sm:bottom-[unset] -left-1/2 sm:left-[unset] sm:-top-1/2 sm:-right-[10%]"></div>
             <ContainerDiv className="h-full flex justify-center items-start sm:items-center">
                 <div className="mt-16 sm:mt-[unset] mr-auto ">
-                    <motion.small variants={item} className="font-Lobster ">Gym & Boxing</motion.small>
-                    <h1 
-                        
+                    <motion.h1 
+                        variants={item}
                         className="uppercase font-extrabold text-5xl sm:text-8xl italic relative w-fit h-fit z-0">
-                            <motion.span variants={item}  >
-                            Fight
+
+                            IRON <span className="bg-red-700/90"> FIST</span>
                             <br/> 
-                            Fitness
-                            </motion.span>
-                        <motion.span variants={item}  className="absolute text-9xl sm:text-[15rem] -top-8 sm:-top-10 text-red-700 right-0 -z-10">
-                            4
-                        </motion.span>
-                    </h1>
+                            <span className="bg-[#FF9632] text-black">
+                            FIGHT
+                                </span>  CLUB
+                    </motion.h1>
                     <motion.p className="w-11/12 sm:w-2/3 text-sm text-justify my-5 sm:my-8" 
                         variants={item}
                     >
                         Unleash your potential in the ring. Join our boxing club for fitness, skill, and an unbeatable sense of community.
                     </motion.p>
                     <motion.a  
-                        variants={item}
-                    href="#" className="border p-2 rounded-sm underline-offset-2 text-sm hover:bg-red-700 transition-all">
+                        variants={item}target="_blankz"
+                    href="https://api.whatsapp.com/send/?phone=%2B919902777669&text=Hello%20Charles,&type=phone_number&app_absent=0"
+                     className="border p-2 underline-offset-2 text-sm hover:bg-red-700 transition-all">
                         BOOK AN APPOINTMENT
                     </motion.a>
                 </div>

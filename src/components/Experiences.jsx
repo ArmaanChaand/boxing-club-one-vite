@@ -11,7 +11,7 @@ export function Experiences(){
                     brightness-50 "
                     src="/media/boxing-black.jpg" alt="Hero"/>
                     <h2 className="text-3xl text-center sm:text-5xl font-bold uppercase italic">
-                        More than <span className="text-red-700 font-extrabold text-7xl">7</span>  years of experience <span className="font-serif">.</span>
+                        More than <span className="text-red-700 font-extrabold text-7xl">10</span>  years of experience <span className="font-serif">.</span>
                     </h2>
                 </div>
             </div>

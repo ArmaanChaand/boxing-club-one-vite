@@ -7,14 +7,12 @@ export function Footer(){
     <a
         href="https://fight4fitness.netlify.app/"       
         className="uppercase font-extrabold text-xl sm:text-3xl italic relative w-fit h-fit z-0">
-            <span   >
-            Fight
-            <br/> 
-            Fitness
-            </span>
-        <span   className="absolute text-6xl sm:text-7xl -top-4 sm:-top-5 text-red-700 right-0 -z-10">
-            4
-        </span>
+
+          IRON <span className="bg-red-700/90"> FIST</span>
+          <br/> 
+          <span className="bg-[#FF9632] text-black">
+                            FIGHT
+                                </span>  CLUB
     </a>
       <ul className="flex flex-wrap items-center mt-6 sm:mt-0 mb-6 text-sm font-medium sm:mb-0 ">
         <li>
@@ -43,7 +41,7 @@ export function Footer(){
     <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
       © 2023{" "}
       <a href="https://fight4fitness.netlify.app/" className="hover:underline">
-        Fight4Fitness™
+        Iron Fist Fight Club™
       </a>
       . All Rights Reserved.
     </span>

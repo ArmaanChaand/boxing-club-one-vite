@@ -18,22 +18,22 @@ export function PricingsHome(){
                     </h3>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 w-full gap-1">
                         <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm gap-1 p-1 font-semibold capitalize">
-                        Functional Training  
+                        Self Defence  
                         </li>
                         <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
-                         Bodyweighted Training  
+                         Crossfit
                         </li>
                         <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
-                         Animal Flow  
+                         Kickboxing
                         </li>
                         <li className="rounded-sm bg-white text-zinc-950 flex justify-center items-center text-sm p-1 gap-1 font-semibold capitalize">
-                         Personal Training  
+                         Jiu Jitsu
                         </li>
                     </ul>
                     <h2 className="text-6xl font-extrabold">
                         <span className="text-red-700">₹</span>1500/M
                     </h2>
-                    <button className="text-base py-2 px-5 border rounded hover:bg-red-700 transition-colors">
+                    <button onClick={()=>alert("This is SAMPLE website.")} className="text-base py-2 px-5 border hover:bg-red-700 transition-colors">
                         JOIN NOW
                     </button>
                 </div>

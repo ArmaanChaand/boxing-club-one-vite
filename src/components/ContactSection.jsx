@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { ContainerDiv } from "./elements/Container";
 
 export function ContactSection(){
@@ -15,7 +15,7 @@ export function ContactSection(){
 
                     <div className="w-full sm:w-[40%] h-fit border rounded overflow-hidden flex-none">
                     <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2153402644967!2d77.63465557401584!3d13.021954613774431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17906931b829%3A0x60771472df9cad18!2sFight%20For%20Fitness!5e0!3m2!1sen!2sin!4v1702211234413!5m2!1sen!2sin"
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15547.016110592649!2d77.6089284!3d13.0513227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17b655b6af15%3A0x1854d7f528d9e973!2sIRON%20FIST%20FIGHT%20CLUB!5e0!3m2!1sen!2sin!4v1702316260602!5m2!1sen!2sin"
   width={600}
   height={450}
   style={{ border: 0 }}
@@ -45,20 +45,29 @@ export function ContactSection(){
                             >
                                 <FaFacebook/>
                             </a>
+                            <a 
+                                href="https://api.whatsapp.com/send/?phone=%2B919902777669&text=Hello%20Charles,&type=phone_number&app_absent=0"
+                                target="_blank"
+                                className="p-1 border-[1px] rounded-sm hover:text-red-700 transition-all hover:border-red-700"
+                            >
+                                <FaWhatsapp/>
+                            </a>
                         </div>
                         <h6 className="text-lg font-semibold mt-5">
                                 Email us
                         </h6>
-                        <a href="mailto:armaan.chaand17@gmail.com" className="hover:underline">armaan.chaand17@gmail.com</a>
+                        <a href="mailto:charles.fitness76@gmail.com" className="hover:underline">charles.fitness76@gmail.com</a>
                         <h6 className="text-lg font-semibold mt-5">
                                 Call us
                         </h6>
-                        <a href="tel:+9107996637020" className="hover:underline">07996637020</a>
+                        <a href="tel:+919902777669" className="hover:underline">+919902777669</a>
                         <h6 className="text-lg font-semibold mt-5">
                                We are at
                         </h6>
-                        <a href="https://www.google.com/maps/dir//No.4%2F1,+3rd+Floor,+Fight+For+Fitness,+above+Inmark,+opp.+Kammanahalli+Main+Road,+Jal+Vayu+Vihar,+Kacharakanahalli,+Bengaluru,+Karnataka+560084/@13.0219546,77.6346556,17z/data=!3m1!5s0x3bae10d395d307b9:0x22ceaf818342f90c!4m8!4m7!1m0!1m5!1m1!1s0x3bae17906931b829:0x60771472df9cad18!2m2!1d77.6372305!2d13.0219494?entry=ttu" target="_blank" className="hover:underline">
-                        No.4/1, 3rd Floor, above Inmark, opp. Kammanahalli Main Road, <br/> Jal Vayu Vihar, Kacharakanahalli, Bengaluru, Karnataka 560084
+                        <a href="https://www.google.com/maps/dir//IRON+FIST+FIGHT+CLUB,+DS-MAX+Marvel+Shine,+36A,1st+cross+Kaveri+layout+Near+Kalveri+Betta+Church,+oposit,+appartment,+opposite+Marvel+shine+appartment,+Marianna+palya,+Hebbal+Kempapura,+Bengaluru,+Karnataka+560024/@13.0513227,77.6089284,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae17b655b6af15:0x1854d7f528d9e973!2m2!1d77.6089284!2d13.0513227?entry=ttu" target="_blank" className="hover:underline">
+                        36A, 1st Cross Kaveri Layout, 
+                        Marianna palya, <br/>
+                        Hebbal, Kempapura, Bengaluru, Karnataka 560024
                         </a>
                     </div>
                 </div>
